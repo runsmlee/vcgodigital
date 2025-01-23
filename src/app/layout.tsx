@@ -17,6 +17,11 @@ const robotoMono = Roboto_Mono({
 export const metadata = {
   title: 'Pitchdeck Analyzer',
   description: 'AI-powered pitch deck analysis tool',
+  icons: {
+    icon: '/weekly_logo.png',
+    shortcut: '/weekly_logo.png',
+    apple: '/weekly_logo.png',
+  },
 };
 
 export default function RootLayout({
