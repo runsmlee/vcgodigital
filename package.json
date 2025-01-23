@@ -1,0 +1,38 @@
+{
+  "name": "pitchdeck-analyzer-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@tremor/react": "^3.12.0",
+    "framer-motion": "^10.16.4",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "lru-cache": "^11.0.2",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.48.2"
+  },
+  "devDependencies": {
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@netlify/plugin-nextjs": "^5.9.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
